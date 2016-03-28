@@ -1,0 +1,31 @@
+{
+  "name": "express-npm-view",
+  "version": "0.1.0",
+  "description": "express middleware to lookup npm package data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/express-npm-field.git"
+  },
+  "keywords": [
+    "express",
+    "npm",
+    "package",
+    "middleware"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengreenier/express-npm-field/issues"
+  },
+  "homepage": "https://github.com/bengreenier/express-npm-field#readme",
+  "dependencies": {
+    "npm": "^3.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
