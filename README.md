@@ -71,4 +71,4 @@ This is the middleware provider. Optionally pass a configuration object with any
 above in `initialize()` (with the exception of `npmOptions`). Any options passed here override options passed
 to `initialize()`.
 
-It will return a middleware function (that it, something that matches the `(req, res, next)` signature) that you can `app.use`.
+It will return a middleware function (that is, something that matches the `(req, res, next)` signature) that you can `app.use`.
