@@ -56,7 +56,8 @@ Optionally pass a configuration object (below are their default values):
 ```
 `queryProperty` is a bit tricker than the rest - it's not immediately clear where we lookup this property,
 so i'm calling it out explicitly. We first try `req.params[queryProperty]`, then `req.query[queryProperty]`
-and finally `req.body[queryProperty]`. If we still haven't found it, we fail.
+and finally `req.body[queryProperty]`. If we still haven't found it, we fail __silently__ (that means they'll
+be no impact to your app, other than `req[propertyName]` won't be set).
 
 Pass a callback function (`cb`) that will be called with `err` if there's an error. Otherwise it's called
 with nothing, when everything is setup.
