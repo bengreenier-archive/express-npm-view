@@ -1,8 +1,6 @@
 express-npm-view
 ==================
 
-> Not ready for primetime yet!
-
 [![Build Status](https://travis-ci.org/bengreenier/express-npm-view.svg?branch=master)](https://travis-ci.org/bengreenier/express-npm-view)
 
 Express middleware to lookup npm package data.
